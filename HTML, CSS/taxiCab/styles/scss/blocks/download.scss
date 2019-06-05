@@ -1,0 +1,139 @@
+﻿//start download
+.download {
+    background: #fff;
+
+    &__container {
+        position: relative;
+
+        &_modifier {
+            padding: 60px 0 158px;
+
+            @include respond-down(md) {
+                padding: 60px 20px 0;
+            }
+        }
+    }
+
+    &__h2 {
+        width: 383px;
+        color: #000;
+        @include h2Style;
+
+        @include respond-only(xs) {
+            width: 100%;
+        }
+    }
+
+    &__spanH2 {
+        @include spanH2Style;
+    }
+
+    &__placeAppImg {
+        &_modifier {
+            position: absolute;
+            right: 65px;
+            bottom: 0;
+
+            @include respond-down(md) {
+                position: static;
+                display: block;
+                margin: 20px auto 0;
+                padding-left: 125px;
+            }
+
+            @include respond-only(xs) {
+                padding-left: 0;
+                width: 100%;
+            }
+        }
+    }
+
+    &__block {
+        width: 480px;
+
+        &_modifier {
+            margin-top: 74px;
+            padding-left: 132px;
+
+            @include respond-only(lg) {
+                padding-left: 65px;
+            }
+
+            @include respond-down(md) {
+                margin: 50px auto 0;
+                padding: 0;
+            }
+        }
+
+        @include respond-down(md) {
+            text-align: center;
+        }
+
+        @include respond-only(xs) {
+            width: 100%;
+        }
+    }
+
+    &__h3 {
+        width: 417px;
+        font-family: $mainFont;
+        font-size: 25.5px;
+        font-weight: 900;
+        color: #000;
+
+        @include respond-down(md) {
+            width: 100%;
+        }
+    }
+
+    &__text {
+        width: 367px;
+        font-family: $mainFont;
+        font-size: 18px;
+        color: $fontColorDark;
+
+        @include respond-down(md) {
+            width: 100%;
+        }
+
+        &_modifier {
+            margin-top: 34px;
+        }
+    }
+
+    &__appWrap {
+        display: inline-block;
+        width: 204px;
+        height: 59px;
+        background: #000;
+        text-align: center;
+        transition-duration: .2s;
+
+        @include respond-only(xs) {
+            display: block;
+        }
+
+        &_modifier {
+            border-radius: 32.5px;
+            margin-top: 66px;
+            padding-top: 4px;
+            border: 3px solid #000;
+            margin-right: 20px;
+
+            @include respond-only(xs) {
+                margin: 30px auto 0;
+            }
+
+            &:hover {
+                cursor: pointer;
+                border: 3px solid $majorColor;
+            }
+        }
+    }
+
+    &__downloadApp {
+        text-decoration: none;
+    }
+}
+
+//stop download

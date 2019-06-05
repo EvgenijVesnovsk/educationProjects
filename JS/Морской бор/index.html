@@ -1,0 +1,171 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<title>seabattle</title>
+	<link rel="stylesheet" type="text/css" href="styles/style.css">
+</head>
+
+<body>
+	<center>
+		<form action="#">
+			<button id="nextPlayer" class="opacity"></button>
+		</form>
+		<form action="#" id="controlPanel">
+			<button id="last">&#8592;</button>
+			<button id="clearAll">Очистить все</button>
+			<button id="autoChoice">Автовыбор</button>
+			<button id="endChoice">Закончить выбор</button>
+		</form>
+		<p></p>
+		<table>
+			<tr>
+				<td id="false"></td>
+				<td id="a">А</td>
+				<td id="b">Б</td>
+				<td id="c">В</td>
+				<td id="d">Г</td>
+				<td id="e">Д</td>
+				<td id="f">Е</td>
+				<td id="g">Ж</td>
+				<td id="h">З</td>
+				<td id="i">И</td>
+				<td id="j">К</td>
+			</tr>
+			<tr>
+				<td id="one">1</td>
+				<td row="0" col="0"></td>
+				<td row="0" col="1"></td>
+				<td row="0" col="2"></td>
+				<td row="0" col="3"></td>
+				<td row="0" col="4"></td>
+				<td row="0" col="5"></td>
+				<td row="0" col="6"></td>
+				<td row="0" col="7"></td>
+				<td row="0" col="8"></td>
+				<td row="0" col="9"></td>
+			</tr>
+			<tr>
+				<td id="two">2</td>
+				<td row="1" col="0"></td>
+				<td row="1" col="1"></td>
+				<td row="1" col="2"></td>
+				<td row="1" col="3"></td>
+				<td row="1" col="4"></td>
+				<td row="1" col="5"></td>
+				<td row="1" col="6"></td>
+				<td row="1" col="7"></td>
+				<td row="1" col="8"></td>
+				<td row="1" col="9"></td>
+			</tr>
+			<tr>
+				<td id="three">3</td>
+				<td row="2" col="0"></td>
+				<td row="2" col="1"></td>
+				<td row="2" col="2"></td>
+				<td row="2" col="3"></td>
+				<td row="2" col="4"></td>
+				<td row="2" col="5"></td>
+				<td row="2" col="6"></td>
+				<td row="2" col="7"></td>
+				<td row="2" col="8"></td>
+				<td row="2" col="9"></td>
+			</tr>
+			<tr>
+				<td id="four">4</td>
+				<td row="3" col="0"></td>
+				<td row="3" col="1"></td>
+				<td row="3" col="2"></td>
+				<td row="3" col="3"></td>
+				<td row="3" col="4"></td>
+				<td row="3" col="5"></td>
+				<td row="3" col="6"></td>
+				<td row="3" col="7"></td>
+				<td row="3" col="8"></td>
+				<td row="3" col="9"></td>
+			</tr>
+			<tr>
+				<td id="five">5</td>
+				<td row="4" col="0"></td>
+				<td row="4" col="1"></td>
+				<td row="4" col="2"></td>
+				<td row="4" col="3"></td>
+				<td row="4" col="4"></td>
+				<td row="4" col="5"></td>
+				<td row="4" col="6"></td>
+				<td row="4" col="7"></td>
+				<td row="4" col="8"></td>
+				<td row="4" col="9"></td>
+			</tr>
+			<tr>
+				<td id="six">6</td>
+				<td row="5" col="0"></td>
+				<td row="5" col="1"></td>
+				<td row="5" col="2"></td>
+				<td row="5" col="3"></td>
+				<td row="5" col="4"></td>
+				<td row="5" col="5"></td>
+				<td row="5" col="6"></td>
+				<td row="5" col="7"></td>
+				<td row="5" col="8"></td>
+				<td row="5" col="9"></td>
+			</tr>
+			<tr>
+				<td id="seven">7</td>
+				<td row="6" col="0"></td>
+				<td row="6" col="1"></td>
+				<td row="6" col="2"></td>
+				<td row="6" col="3"></td>
+				<td row="6" col="4"></td>
+				<td row="6" col="5"></td>
+				<td row="6" col="6"></td>
+				<td row="6" col="7"></td>
+				<td row="6" col="8"></td>
+				<td row="6" col="9"></td>
+			</tr>
+			<tr>
+				<td id="eight">8</td>
+				<td row="7" col="0"></td>
+				<td row="7" col="1"></td>
+				<td row="7" col="2"></td>
+				<td row="7" col="3"></td>
+				<td row="7" col="4"></td>
+				<td row="7" col="5"></td>
+				<td row="7" col="6"></td>
+				<td row="7" col="7"></td>
+				<td row="7" col="8"></td>
+				<td row="7" col="9"></td>
+			</tr>
+			<tr>
+				<td id="nine">9</td>
+				<td row="8" col="0"></td>
+				<td row="8" col="1"></td>
+				<td row="8" col="2"></td>
+				<td row="8" col="3"></td>
+				<td row="8" col="4"></td>
+				<td row="8" col="5"></td>
+				<td row="8" col="6"></td>
+				<td row="8" col="7"></td>
+				<td row="8" col="8"></td>
+				<td row="8" col="9"></td>
+			</tr>
+			<tr>
+				<td id="ten">10</td>
+				<td row="9" col="0"></td>
+				<td row="9" col="1"></td>
+				<td row="9" col="2"></td>
+				<td row="9" col="3"></td>
+				<td row="9" col="4"></td>
+				<td row="9" col="5"></td>
+				<td row="9" col="6"></td>
+				<td row="9" col="7"></td>
+				<td row="9" col="8"></td>
+				<td row="9" col="9"></td>
+			</tr>
+		</table>
+	</center>
+	<script type="text/javascript" src="js/game.js"></script>
+</body>
+
+</html>

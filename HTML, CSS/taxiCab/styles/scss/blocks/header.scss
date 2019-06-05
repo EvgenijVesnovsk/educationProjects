@@ -1,0 +1,214 @@
+﻿//start header
+.header {
+    max-width: 1600px;
+    height: 739px;
+    background: url(../../img/headerBg.jpg) 50% 50% no-repeat;
+    background-size: cover;
+
+    &_modifier {
+        position: relative;
+        margin: 0 auto;
+        padding: 37px 82px 0 80px;
+        box-sizing: border-box;
+
+        @include respond-down(lg) {
+            padding: 37px 20px 0;
+        }
+    }
+
+    @include respond-down(lg) {
+        width: 100%;
+    }
+
+    &__logo {
+
+        &_modifier {
+            float: left;
+
+            @include respond-down(lg) {
+                float: none;
+            }
+        }
+
+        @include respond-down(lg) {
+            text-align: center;
+        }
+    }
+
+    &__companyName {
+        font-family: $mainFont;
+        font-size: 40.36px;
+        font-weight: 900;
+        color: #fff;
+    }
+
+    &__companyNameSpan {
+        color: #daa505;
+    }
+
+    &__companySlogan {
+        font-family: $mainFont;
+        font-size: 15.01px;
+        font-weight: 900;
+        letter-spacing: 3px;
+        color: #fff;
+        text-transform: uppercase;
+
+        &_modifier {
+            margin-top: 6px;
+        }
+    }
+
+    &__navigation {
+
+        &_modifier {
+            float: right;
+
+            @include respond-down(lg) {
+                float: none;
+                margin-top: 20px;
+            }
+        }
+
+        @include respond-down(lg) {
+            text-align: center;
+        }
+    }
+
+    &__navigationLi {
+        display: inline-block;
+        list-style: none;
+        
+        @include respond-only(xs) {
+            display: block;
+        }
+    }
+
+    &__navigationLink {
+        display: block;
+        font-family: $mainFont;
+        font-size: 16px;
+        font-weight: 600;
+        color: $fontColorLight;
+        text-decoration: none;
+        text-transform: uppercase;
+        transition-duration: .5s;
+
+        &_modifier {
+            padding: 12px 25px 7px 24px;
+            border-radius: 17px;
+        }
+
+        &:hover {
+            background: $majorColor;
+            color: $fontColorDark;
+            text-decoration: none;
+        }
+    }
+
+    &__navigationLinkActiv {
+        display: block;
+        font-family: $mainFont;
+        font-size: 16px;
+        font-weight: 600;
+        color: $fontColorDark;
+        text-decoration: none;
+        background: $majorColor;
+        text-transform: uppercase;
+
+        &_modifier {
+            @extend .header__navigationLink_modifier;
+        }
+    }
+
+    &__callNow {
+        width: 540px;
+        text-align: center;
+
+        @include respond-down(lg) {
+            width: auto;
+        }
+
+        &_modifier {
+            margin: 117px auto 0;
+
+            @include respond-down(lg) {
+                margin-top: 82px;
+            }
+        }
+    }
+
+    &__bookCabNow {
+        @include spanH2Style;
+    }
+
+    &__phone {
+        font-family: $mainFont;
+        font-size: 72.26px;
+        font-weight: 600;
+        color: $fontColorLight;
+
+        &_modifier {
+            margin-top: 8px;
+        }
+        
+        @include respond-only(xs) {
+            font-size: 42.26px;
+        }
+    }
+
+    &__webSite {
+        font-family: $mainFont;
+        font-size: 20px;
+        font-weight: 600;
+        letter-spacing: 14.75px;
+        color: $fontColorLight;
+        text-transform: uppercase;
+
+        @include respond-only(xs) {
+            font-size: 19px;
+            letter-spacing: normal;
+        }
+
+        &_modifier {
+            margin-top: 19px;
+        }
+    }
+
+    &__carImage {
+
+        &_modifier {
+            position: absolute;
+            top: 370px;
+            left: #{calc(50% - 428px)};
+        }
+
+        @include respond-only(lg) {
+            width: 619.5px;
+            height: 363px;
+            top: 491px;
+            left: #{calc(50% - 310px)};
+        }
+
+        @include respond-only(md) {
+            width: 619.5px;
+            height: 363px;
+            top: 491px;
+            left: #{calc(50% - 310px)};
+        }
+
+        @include respond-only(sm) {
+            width: 413px;
+            height: 242px;
+            top: 612px;
+            left: #{calc(50% - 206.5px)};
+        }
+
+        @include respond-only(xs) {
+            width: 240px;
+            height: 130px;
+            top: 664px;
+            left: #{calc(50% - 120px)};
+        }
+    }
+} //stop header

@@ -1,0 +1,114 @@
+﻿//start header
+
+.header {
+    background: #250000;
+
+    &_modifier {
+        border-top: 5px solid $hoverAndButton;
+        padding: 41px 0;
+        
+        @include media-breakpoint-only(xs) {
+            padding: 20px 0;
+        }
+    }
+
+    &__logoAndSlogan {
+
+        &_modifier {
+            float: left;
+
+            @include media-breakpoint-only(xs) {
+                text-align: center;
+            }
+
+            @include media-breakpoint-between(xs, md) {
+                float: none;
+            }
+        }
+    }
+
+    &__logo {
+        font-family: $mainFont;
+        font-size: 28px;
+        color: #fff;
+        line-height: 1;
+
+        &_modifier {
+            margin: 0;
+        }
+    }
+
+    &__slogan {
+        font-family: $mainFont;
+        font-size: 11px;
+        color: $fontColor;
+        line-height: 1;
+
+        &_modifier {
+            margin: 0;
+        }
+    }
+
+    &__navigation {
+
+        &_modifier {
+            float: right;
+
+            @include media-breakpoint-only(xs) {
+                text-align: center;
+            }
+
+             @include media-breakpoint-between(xs, md) {
+                float: none;
+                margin: 10px 0 0;
+                padding: 0;
+            }
+        }
+    }
+
+    &__activeLi,
+    &__noactiveLi {
+        display: inline-block;
+        list-style: none;
+
+        @include media-breakpoint-only(xs) {
+            display: block;
+        }
+    }
+
+    &__activeNavA,
+    &__NavA {
+        display: block;
+        font-family: $mainFont;
+        font-size: 13px;
+        line-height: 1.23;
+        color: #fff;
+
+        &_modifier {
+            padding: 12px 20px;
+        }
+    }
+
+    &__activeNavA {
+        background: $hoverAndButton;
+        border-radius: 10px;
+
+        &_modifier:hover {
+            color: #fff;
+            text-decoration: none;
+        }
+    }
+
+    &__NavA {
+
+        &_modifier:hover {
+            background: $hoverAndButton;
+            border-radius: 10px;
+            color: #fff;
+            text-decoration: none;
+            transition-duration: .5s;
+        }
+    }
+}
+
+//stop header

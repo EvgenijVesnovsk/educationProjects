@@ -1,0 +1,171 @@
+﻿//star advantages
+.advantages {
+    max-width: 1600px;
+    height: 754px;
+    background: url(../../img/whyChooseUsBg.jpg) 81% 100% no-repeat;
+    background-size: cover;
+
+    &_modifier {
+        margin: 0 auto;
+        padding: 72px 0 0 64px;
+        box-sizing: border-box;
+
+        @include respond-down(lg) {
+            padding: 72px 32px 0;
+        }
+        
+        @include respond-only(xs) {
+            padding: 72px 20px 80px;
+        }
+    }
+
+    @include respond-only(xs) {
+        height: auto;
+    }
+
+    &__h2 {
+        display: block;
+        width: 358px;
+        color: #fff;
+        @include h2Style;
+
+        &_modifier {
+            padding-right: 67px;
+
+            @include respond-only(xs) {
+                padding-right: 0;
+            }
+        }
+
+        @include respond-only(xs) {
+            width: 100%;
+        }
+    }
+
+    &__spanH2 {
+        @include spanH2Style;
+    }
+
+    &__grid {
+        display: grid;
+        grid-template-columns: repeat(2, 485px);
+
+        @include respond-only(lg) {
+            grid-template-columns: repeat(2, 1fr);
+        }
+
+        @include respond-down(md) {
+            grid-template-columns: 1fr;
+        }
+
+        &_modifier {
+            grid-column-gap: 191px;
+            grid-row-gap: 78px;
+
+            @include respond-down(lg) {
+                grid-column-gap: 50px;
+                grid-row-gap: 20px;
+            }
+        }
+    }
+
+    &__block {
+
+        &_modifier {
+
+            &:nth-child(1),
+            &:nth-child(2) {
+                margin-top: 95px;
+
+                @include respond-down(md) {
+                    margin-top: 0;
+                }
+            }
+
+            &:nth-child(1) {
+                @include respond-down(md) {
+                    margin-top: 20px;
+                }
+            }
+        }
+
+        @include respond-only(xs) {
+            text-align: center;
+        }
+    }
+
+    &__imgWrap {
+        width: 81px;
+        height: 81px;
+        background: $majorColor;
+        position: relative;
+
+        &_modifier {
+            border-radius: 50%;
+            float: left;
+            margin-right: 37px;
+
+            @include respond-only(xs) {
+                float: none;
+                margin: 0 auto 20px;
+            }
+        }
+
+    }
+
+    &__img {
+        display: block;
+
+        &_modifier {
+            position: absolute;
+            top: 28px;
+            left: 26px;
+        }
+    }
+
+    &__h3 {
+        font-family: $mainFont;
+        font-size: 25px;
+        font-weight: 900;
+        color: $majorColor;
+        text-transform: uppercase;
+    }
+
+    &__text {
+        font-family: $mainFont;
+        font-size: 18px;
+        color: $fontColorLight;
+        line-height: 20px;
+
+        &_modifier {
+            margin-top: 21px;
+            overflow: hidden;
+        }
+    }
+
+    &__readMoreWrap {
+        text-align: center;
+
+        &_modifier {
+            margin-top: 84px;
+            padding-right: 61px;
+
+            @include respond-only(xs) {
+                padding-right: 0;
+            }
+        }
+    }
+
+    &__readMore {
+        @include buttonStyle;
+        color: #010101;
+        background: $majorColor;
+        transition-duration: .5s;
+
+        &:hover {
+            color: #fff;
+        }
+    }
+}
+
+//stop advantages

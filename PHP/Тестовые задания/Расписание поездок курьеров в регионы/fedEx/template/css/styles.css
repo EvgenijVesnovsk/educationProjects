@@ -1,0 +1,16 @@
+span {
+    text-decoration: underline;
+}
+
+nav ul li {
+    display: inline-block;
+    list-style: none;
+}
+
+.trips_block {
+    width: 100%;
+}
+
+.trips_block:nth-child(odd) {
+    background-color: darkgrey;
+}

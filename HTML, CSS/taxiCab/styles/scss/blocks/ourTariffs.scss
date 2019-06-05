@@ -1,0 +1,194 @@
+﻿//start ourTariffs
+.ourTariffs {
+    background: #fff;
+
+    &_modifier {
+        padding: 45px 0 78px 45px;
+
+        @include respond-down(lg) {
+            padding: 146px 20px 80px;
+        }
+
+        @include respond-only(xs) {
+            padding-top: 72px;
+        }
+    }
+
+    &__grid {
+        display: grid;
+        grid-template-columns: repeat(3, 372px);
+        grid-gap: 34px;
+
+        @include respond-only(lg) {
+            grid-template-columns: repeat(2, 1fr);
+            grid-template-rows: repeat(2, 1fr);
+        }
+
+        @include respond-only(md) {
+            grid-template-columns: repeat(2, 1fr);
+            grid-template-rows: repeat(2, 1fr);
+        }
+
+        @include respond-down(sm) {
+            grid-template-columns: 1fr;
+        }
+    }
+
+    &__h2 {
+        display: block;
+        width: 171px;
+        color: #000;
+        @include h2Style;
+
+        &_modifier {
+            padding-right: 43px;
+
+            @include respond-only(xs) {
+                padding-right: 0;
+            }
+        }
+    }
+
+    &__spanH2 {
+        @include spanH2Style;
+    }
+
+    &__block {
+        background: #f5f4f2;
+        text-align: center;
+        transition-duration: .5s;
+
+        &_modifier {
+            margin-top: 128px;
+            padding: 119px 13px 24px 8px;
+            position: relative;
+        }
+
+        &:hover {
+            background: $majorColor;
+
+            .ourTariffs {
+
+                &__price {
+                    color: #131313;
+                }
+
+                &__readMore {
+                    background: #1b1b1b;
+                    color: #fff;
+                }
+
+                &__starWrap,
+                &__star {
+                    opacity: 1;
+                }
+            }
+        }
+
+        &:last-child {
+            @include respond-only(lg) {
+                grid-column: 1/3;
+            }
+
+            @include respond-only(md) {
+                grid-column: 1/3;
+            }
+        }
+    }
+
+    &__imgCar {
+        display: block;
+
+        &_modifier {
+            position: absolute;
+            top: -86px;
+            left: -8px;
+
+            @include respond-down(lg) {
+                left: #{calc(50% - 183px)};
+            }
+
+            @include respond-only(xs) {
+                left: #{calc(50% - 140px)};
+            }
+        }
+
+        @include respond-only(xs) {
+            width: 280px;
+            height: 136px;
+        }
+    }
+
+    &__h3 {
+        font-family: $mainFont;
+        font-size: 30.42px;
+        font-weight: 900;
+        color: #000;
+        text-transform: uppercase;
+    }
+
+    &__text {
+        width: 345px;
+        font-family: $mainFont;
+        font-size: 18px;
+        line-height: 20px;
+        color: $fontColorDark;
+
+        @include respond-down(lg) {
+            width: 100%;
+        }
+
+        &_modifier {
+            margin-top: 26px;
+        }
+    }
+
+    &__price {
+        font-family: $mainFont;
+        font-size: 44px;
+        font-weight: 900;
+        color: $majorColor;
+        text-transform: uppercase;
+        transition-duration: .5s;
+
+        &_modifier {
+            margin-top: 35px;
+        }
+    }
+
+    &__readMore {
+        @include buttonStyle;
+        color: #000;
+        background: $majorColor;
+        transition-duration: .5s;
+
+        &_modifier {
+            margin: 35px auto 0;
+        }
+    }
+
+    &__starWrap {
+        width: 0;
+        height: 0;
+        opacity: 0;
+        &_modifier {
+            border-bottom: 74px solid #1b1b1b;
+            border-left: 74px solid transparent;
+            position: absolute;
+            right: 0;
+            bottom: 0;
+        }
+    }
+
+    &__star {
+        display: block;
+        opacity: 0;
+        &_modifier {
+            position: absolute;
+            right: 7px;
+            bottom: 13px;
+        }
+    }
+}
+
+//stop ourTariffs

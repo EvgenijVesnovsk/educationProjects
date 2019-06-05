@@ -1,0 +1,272 @@
+﻿//start Trusted Cab Servies
+.trustedCabServies {
+    height: 707px;
+    background: $majorColor;
+
+    @include respond-down(md) {
+        height: auto;
+    }
+
+    &_modifier {
+        padding: 146px 0 80px 35px;
+        box-sizing: border-box;
+
+        @include respond-down(lg) {
+            padding: 146px 20px 80px;
+        }
+    }
+
+    &__block {
+        width: 566px;
+
+        &_modifier {
+            float: left;
+
+            @include respond-down(md) {
+                width: 100%;
+                float: none;
+            }
+        }
+
+        @include respond-only(lg) {
+            width: 472px;
+        }
+
+        @include respond-down(md) {
+            width: 100%;
+            text-align: center;
+        }
+    }
+
+    &__bestInCity {
+        font-family: $mainFont;
+        font-size: 35px;
+        font-weight: 900;
+        color: #000;
+        text-transform: uppercase;
+    }
+
+    &__h1 {
+        font-family: $mainFont;
+        font-size: 50px;
+        font-weight: 600;
+        color: $fontColorDark;
+        text-transform: uppercase;
+
+        &_modifier {
+            margin-top: 11px;
+            line-height: 59px;
+        }
+    }
+
+    &__hello {
+        font-family: $mainFont;
+        font-size: 18px;
+        color: $fontColorDark;
+        line-height: 22px;
+
+        &_modifier {
+            margin-top: 32px;
+        }
+    }
+
+    &__readMore {
+        display: block;
+        width: 102px;
+        background: #000;
+        font-family: $buttonFont;
+        font-size: 29.53px;
+        font-weight: bold;
+        color: $fontColorLight;
+        text-transform: uppercase;
+        text-decoration: none;
+        transition-duration: .5s;
+
+        &_modifier {
+            margin: 57px 0 0;
+            padding: 12px 30px 7px 32px;
+            border-radius: 10px;
+
+            @include respond-down(md) {
+                margin: 20px auto 0;
+            }
+        }
+
+        &:hover {
+            color: $majorColor;
+            text-decoration: none;
+        }
+    }
+
+    &__block2 {
+        width: 424px;
+
+        &_modifier {
+            float: right;
+            margin: 8px 9px 0 0;
+
+            @include respond-down(md) {
+                float: none;
+                margin: 20px auto 0;
+            }
+        }
+
+        @include respond-only(xs) {
+            width: 100%;
+        }
+    }
+
+    &__formText {
+        font-family: $mainFont;
+        font-size: 35.5px;
+        font-weight: 800;
+        color: $fontColorLight;
+        background: #171717;
+        text-transform: uppercase;
+
+        &_modifier {
+            padding: 22px 0 21px 34px;
+
+            @include respond-only(xs) {
+                padding: 22px 0 21px;
+            }
+        }
+
+        @include respond-only(xs) {
+            text-align: center;
+        }
+    }
+
+    &__formTextSpan {
+        color: $majorColor;
+    }
+
+    &__form {
+        position: relative;
+        background: #fff;
+
+        &_modifier {
+            padding: 0 23px 18px 21px;
+        }
+    }
+
+    &__inputWrapper {
+        display: inline-block;
+
+        @include respond-only(xs) {
+            width: 100%;
+        }
+
+        &_modifier {
+
+            &:after {
+                content: '';
+                width: 151px;
+                height: 2px;
+                background: #e4e4e4;
+                position: absolute;
+
+                @include respond-only(xs) {
+                    width: #{calc(100% - 65px)};
+                }
+            }
+
+            &:nth-child(odd) {
+
+                &:after {
+                    left: 36px;
+                }
+            }
+
+            &:nth-child(even) {
+
+                &:after {
+                    left: 229px;
+
+                    @include respond-only(xs) {
+                        left: 36px;
+                    }
+                }
+            }
+        }
+    }
+
+    &__inputWrapperCar {
+        &_modifier {
+            &:after {
+                content: '';
+                width: 358px;
+                height: 2px;
+                background: #e4e4e4;
+                position: absolute;
+                left: 38px;
+                top: 281px;
+
+                @include respond-only(xs) {
+                    width: #{calc(100% - 65px)};
+                    left: 36px;
+                    top: 497px;
+                }
+            }
+        }
+    }
+
+    &__input,
+    &__chooseVehicle {
+        font-family: 'Lato Semibold', sans-serif;
+        font-size: 20px;
+        font-weight: 600;
+        color: #000;
+
+        &_modifier {
+            padding: 16px 10px 10px 10px;
+            margin: 21px 0 0 4px;
+            border: 0;
+            box-sizing: border-box;
+            outline: none;
+        }
+    }
+
+    &__input {
+        width: 183px;
+
+        @include respond-only(xs) {
+            width: 100%;
+        }
+    }
+
+    &__chooseVehicle {
+        width: 365px;
+
+        @include respond-only(xs) {
+            width: 100%;
+        }
+    }
+
+    &__submit {
+        display: block;
+        width: 100%;
+        font-family: $buttonFont;
+        font-size: 29.5px;
+        font-weight: bold;
+        color: $fontColorLight;
+        text-align: center;
+        text-transform: uppercase;
+        background: #131313;
+        transition-duration: .5s;
+
+        &_modifier {
+            margin-top: 44px;
+            padding: 10px 10px 11px 0;
+            border: 0;
+            border-radius: 10px;
+        }
+
+        &:hover {
+            cursor: pointer;
+            color: $majorColor;
+        }
+    }
+}
+
+//stop Trusted Cab Servies

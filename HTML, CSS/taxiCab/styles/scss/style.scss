@@ -1,0 +1,31 @@
+﻿@import "_variables.scss";
+
+@import "blocks/header.scss";
+@import "blocks/trustedCabServies.scss";
+@import "blocks/ourTariffs.scss";
+@import "blocks/advantages.scss";
+@import "blocks/download.scss";
+@import "blocks/reviews.scss";
+@import "blocks/contactUs.scss";
+@import "blocks/footer.scss";
+
+body {
+    background: #000;
+}
+
+.trustedCabServies,
+.ourTariffs,
+.advantages,
+.download,
+.reviews,
+.contactUs,
+.footer {
+
+    &__container {
+        max-width: 1200px;
+
+        &_modifier {
+            margin: 0 auto;
+        }
+    }
+}

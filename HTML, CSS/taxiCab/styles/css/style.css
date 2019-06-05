@@ -1,0 +1,1020 @@
+@font-face {
+  font-family: 'Lato Regular', sans-serif;
+  src: url(../../fonts/Lato-Regular.ttf); }
+@font-face {
+  font-family: 'Bebas Neue', sans-serif;
+  src: url(../../fonts/Bebas-Neue.ttf); }
+@font-face {
+  font-family: 'Lato Semibold', sans-serif;
+  src: url(../../fonts/Lato-Semibold.ttf); }
+.header {
+  max-width: 1600px;
+  height: 739px;
+  background: url(../../img/headerBg.jpg) 50% 50% no-repeat;
+  background-size: cover; }
+  .header_modifier {
+    position: relative;
+    margin: 0 auto;
+    padding: 37px 82px 0 80px;
+    box-sizing: border-box; }
+    @media (max-width: 1229.98px) {
+      .header_modifier {
+        padding: 37px 20px 0; } }
+  @media (max-width: 1229.98px) {
+    .header {
+      width: 100%; } }
+  .header__logo_modifier {
+    float: left; }
+    @media (max-width: 1229.98px) {
+      .header__logo_modifier {
+        float: none; } }
+  @media (max-width: 1229.98px) {
+    .header__logo {
+      text-align: center; } }
+  .header__companyName {
+    font-family: "Lato Regular", sans-serif;
+    font-size: 40.36px;
+    font-weight: 900;
+    color: #fff; }
+  .header__companyNameSpan {
+    color: #daa505; }
+  .header__companySlogan {
+    font-family: "Lato Regular", sans-serif;
+    font-size: 15.01px;
+    font-weight: 900;
+    letter-spacing: 3px;
+    color: #fff;
+    text-transform: uppercase; }
+    .header__companySlogan_modifier {
+      margin-top: 6px; }
+  .header__navigation_modifier {
+    float: right; }
+    @media (max-width: 1229.98px) {
+      .header__navigation_modifier {
+        float: none;
+        margin-top: 20px; } }
+  @media (max-width: 1229.98px) {
+    .header__navigation {
+      text-align: center; } }
+  .header__navigationLi {
+    display: inline-block;
+    list-style: none; }
+    @media (max-width: 575.98px) {
+      .header__navigationLi {
+        display: block; } }
+  .header__navigationLink {
+    display: block;
+    font-family: "Lato Regular", sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition-duration: .5s; }
+    .header__navigationLink_modifier, .header__navigationLinkActiv_modifier {
+      padding: 12px 25px 7px 24px;
+      border-radius: 17px; }
+    .header__navigationLink:hover {
+      background: #ffc61a;
+      color: #101010;
+      text-decoration: none; }
+  .header__navigationLinkActiv {
+    display: block;
+    font-family: "Lato Regular", sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    color: #101010;
+    text-decoration: none;
+    background: #ffc61a;
+    text-transform: uppercase; }
+  .header__callNow {
+    width: 540px;
+    text-align: center; }
+    @media (max-width: 1229.98px) {
+      .header__callNow {
+        width: auto; } }
+    .header__callNow_modifier {
+      margin: 117px auto 0; }
+      @media (max-width: 1229.98px) {
+        .header__callNow_modifier {
+          margin-top: 82px; } }
+  .header__bookCabNow {
+    font-family: "Lato Regular", sans-serif;
+    font-size: 35px;
+    font-weight: 900;
+    color: #ffc61a;
+    text-transform: uppercase; }
+  .header__phone {
+    font-family: "Lato Regular", sans-serif;
+    font-size: 72.26px;
+    font-weight: 600;
+    color: #fff; }
+    .header__phone_modifier {
+      margin-top: 8px; }
+    @media (max-width: 575.98px) {
+      .header__phone {
+        font-size: 42.26px; } }
+  .header__webSite {
+    font-family: "Lato Regular", sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    letter-spacing: 14.75px;
+    color: #fff;
+    text-transform: uppercase; }
+    @media (max-width: 575.98px) {
+      .header__webSite {
+        font-size: 19px;
+        letter-spacing: normal; } }
+    .header__webSite_modifier {
+      margin-top: 19px; }
+  .header__carImage_modifier {
+    position: absolute;
+    top: 370px;
+    left: calc(50% - 428px); }
+  @media (min-width: 992px) and (max-width: 1229.98px) {
+    .header__carImage {
+      width: 619.5px;
+      height: 363px;
+      top: 491px;
+      left: calc(50% - 310px); } }
+  @media (min-width: 768px) and (max-width: 991.98px) {
+    .header__carImage {
+      width: 619.5px;
+      height: 363px;
+      top: 491px;
+      left: calc(50% - 310px); } }
+  @media (min-width: 576px) and (max-width: 767.98px) {
+    .header__carImage {
+      width: 413px;
+      height: 242px;
+      top: 612px;
+      left: calc(50% - 206.5px); } }
+  @media (max-width: 575.98px) {
+    .header__carImage {
+      width: 240px;
+      height: 130px;
+      top: 664px;
+      left: calc(50% - 120px); } }
+
+.trustedCabServies {
+  height: 707px;
+  background: #ffc61a; }
+  @media (max-width: 991.98px) {
+    .trustedCabServies {
+      height: auto; } }
+  .trustedCabServies_modifier {
+    padding: 146px 0 80px 35px;
+    box-sizing: border-box; }
+    @media (max-width: 1229.98px) {
+      .trustedCabServies_modifier {
+        padding: 146px 20px 80px; } }
+  .trustedCabServies__block {
+    width: 566px; }
+    .trustedCabServies__block_modifier {
+      float: left; }
+      @media (max-width: 991.98px) {
+        .trustedCabServies__block_modifier {
+          width: 100%;
+          float: none; } }
+    @media (min-width: 992px) and (max-width: 1229.98px) {
+      .trustedCabServies__block {
+        width: 472px; } }
+    @media (max-width: 991.98px) {
+      .trustedCabServies__block {
+        width: 100%;
+        text-align: center; } }
+  .trustedCabServies__bestInCity {
+    font-family: "Lato Regular", sans-serif;
+    font-size: 35px;
+    font-weight: 900;
+    color: #000;
+    text-transform: uppercase; }
+  .trustedCabServies__h1 {
+    font-family: "Lato Regular", sans-serif;
+    font-size: 50px;
+    font-weight: 600;
+    color: #101010;
+    text-transform: uppercase; }
+    .trustedCabServies__h1_modifier {
+      margin-top: 11px;
+      line-height: 59px; }
+  .trustedCabServies__hello {
+    font-family: "Lato Regular", sans-serif;
+    font-size: 18px;
+    color: #101010;
+    line-height: 22px; }
+    .trustedCabServies__hello_modifier {
+      margin-top: 32px; }
+  .trustedCabServies__readMore {
+    display: block;
+    width: 102px;
+    background: #000;
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 29.53px;
+    font-weight: bold;
+    color: #fff;
+    text-transform: uppercase;
+    text-decoration: none;
+    transition-duration: .5s; }
+    .trustedCabServies__readMore_modifier {
+      margin: 57px 0 0;
+      padding: 12px 30px 7px 32px;
+      border-radius: 10px; }
+      @media (max-width: 991.98px) {
+        .trustedCabServies__readMore_modifier {
+          margin: 20px auto 0; } }
+    .trustedCabServies__readMore:hover {
+      color: #ffc61a;
+      text-decoration: none; }
+  .trustedCabServies__block2 {
+    width: 424px; }
+    .trustedCabServies__block2_modifier {
+      float: right;
+      margin: 8px 9px 0 0; }
+      @media (max-width: 991.98px) {
+        .trustedCabServies__block2_modifier {
+          float: none;
+          margin: 20px auto 0; } }
+    @media (max-width: 575.98px) {
+      .trustedCabServies__block2 {
+        width: 100%; } }
+  .trustedCabServies__formText {
+    font-family: "Lato Regular", sans-serif;
+    font-size: 35.5px;
+    font-weight: 800;
+    color: #fff;
+    background: #171717;
+    text-transform: uppercase; }
+    .trustedCabServies__formText_modifier {
+      padding: 22px 0 21px 34px; }
+      @media (max-width: 575.98px) {
+        .trustedCabServies__formText_modifier {
+          padding: 22px 0 21px; } }
+    @media (max-width: 575.98px) {
+      .trustedCabServies__formText {
+        text-align: center; } }
+  .trustedCabServies__formTextSpan {
+    color: #ffc61a; }
+  .trustedCabServies__form {
+    position: relative;
+    background: #fff; }
+    .trustedCabServies__form_modifier {
+      padding: 0 23px 18px 21px; }
+  .trustedCabServies__inputWrapper {
+    display: inline-block; }
+    @media (max-width: 575.98px) {
+      .trustedCabServies__inputWrapper {
+        width: 100%; } }
+    .trustedCabServies__inputWrapper_modifier:after {
+      content: '';
+      width: 151px;
+      height: 2px;
+      background: #e4e4e4;
+      position: absolute; }
+      @media (max-width: 575.98px) {
+        .trustedCabServies__inputWrapper_modifier:after {
+          width: calc(100% - 65px); } }
+    .trustedCabServies__inputWrapper_modifier:nth-child(odd):after {
+      left: 36px; }
+    .trustedCabServies__inputWrapper_modifier:nth-child(even):after {
+      left: 229px; }
+      @media (max-width: 575.98px) {
+        .trustedCabServies__inputWrapper_modifier:nth-child(even):after {
+          left: 36px; } }
+  .trustedCabServies__inputWrapperCar_modifier:after {
+    content: '';
+    width: 358px;
+    height: 2px;
+    background: #e4e4e4;
+    position: absolute;
+    left: 38px;
+    top: 281px; }
+    @media (max-width: 575.98px) {
+      .trustedCabServies__inputWrapperCar_modifier:after {
+        width: calc(100% - 65px);
+        left: 36px;
+        top: 497px; } }
+  .trustedCabServies__input, .trustedCabServies__chooseVehicle {
+    font-family: 'Lato Semibold', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    color: #000; }
+    .trustedCabServies__input_modifier, .trustedCabServies__chooseVehicle_modifier {
+      padding: 16px 10px 10px 10px;
+      margin: 21px 0 0 4px;
+      border: 0;
+      box-sizing: border-box;
+      outline: none; }
+  .trustedCabServies__input {
+    width: 183px; }
+    @media (max-width: 575.98px) {
+      .trustedCabServies__input {
+        width: 100%; } }
+  .trustedCabServies__chooseVehicle {
+    width: 365px; }
+    @media (max-width: 575.98px) {
+      .trustedCabServies__chooseVehicle {
+        width: 100%; } }
+  .trustedCabServies__submit {
+    display: block;
+    width: 100%;
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 29.5px;
+    font-weight: bold;
+    color: #fff;
+    text-align: center;
+    text-transform: uppercase;
+    background: #131313;
+    transition-duration: .5s; }
+    .trustedCabServies__submit_modifier {
+      margin-top: 44px;
+      padding: 10px 10px 11px 0;
+      border: 0;
+      border-radius: 10px; }
+    .trustedCabServies__submit:hover {
+      cursor: pointer;
+      color: #ffc61a; }
+
+.ourTariffs {
+  background: #fff; }
+  .ourTariffs_modifier {
+    padding: 45px 0 78px 45px; }
+    @media (max-width: 1229.98px) {
+      .ourTariffs_modifier {
+        padding: 146px 20px 80px; } }
+    @media (max-width: 575.98px) {
+      .ourTariffs_modifier {
+        padding-top: 72px; } }
+  .ourTariffs__grid {
+    display: grid;
+    grid-template-columns: repeat(3, 372px);
+    grid-gap: 34px; }
+    @media (min-width: 992px) and (max-width: 1229.98px) {
+      .ourTariffs__grid {
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(2, 1fr); } }
+    @media (min-width: 768px) and (max-width: 991.98px) {
+      .ourTariffs__grid {
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(2, 1fr); } }
+    @media (max-width: 767.98px) {
+      .ourTariffs__grid {
+        grid-template-columns: 1fr; } }
+  .ourTariffs__h2 {
+    display: block;
+    width: 171px;
+    color: #000;
+    font-family: "Lato Regular", sans-serif;
+    font-size: 44px;
+    font-weight: 900;
+    text-transform: uppercase;
+    text-align: center; }
+    .ourTariffs__h2_modifier {
+      margin: 0 auto; }
+    .ourTariffs__h2_modifier {
+      padding-right: 43px; }
+      @media (max-width: 575.98px) {
+        .ourTariffs__h2_modifier {
+          padding-right: 0; } }
+  .ourTariffs__spanH2 {
+    font-family: "Lato Regular", sans-serif;
+    font-size: 35px;
+    font-weight: 900;
+    color: #ffc61a;
+    text-transform: uppercase; }
+  .ourTariffs__block {
+    background: #f5f4f2;
+    text-align: center;
+    transition-duration: .5s; }
+    .ourTariffs__block_modifier {
+      margin-top: 128px;
+      padding: 119px 13px 24px 8px;
+      position: relative; }
+    .ourTariffs__block:hover {
+      background: #ffc61a; }
+      .ourTariffs__block:hover .ourTariffs__price {
+        color: #131313; }
+      .ourTariffs__block:hover .ourTariffs__readMore {
+        background: #1b1b1b;
+        color: #fff; }
+      .ourTariffs__block:hover .ourTariffs__starWrap, .ourTariffs__block:hover .ourTariffs__star {
+        opacity: 1; }
+    @media (min-width: 992px) and (max-width: 1229.98px) {
+      .ourTariffs__block:last-child {
+        grid-column: 1/3; } }
+    @media (min-width: 768px) and (max-width: 991.98px) {
+      .ourTariffs__block:last-child {
+        grid-column: 1/3; } }
+  .ourTariffs__imgCar {
+    display: block; }
+    .ourTariffs__imgCar_modifier {
+      position: absolute;
+      top: -86px;
+      left: -8px; }
+      @media (max-width: 1229.98px) {
+        .ourTariffs__imgCar_modifier {
+          left: calc(50% - 183px); } }
+      @media (max-width: 575.98px) {
+        .ourTariffs__imgCar_modifier {
+          left: calc(50% - 140px); } }
+    @media (max-width: 575.98px) {
+      .ourTariffs__imgCar {
+        width: 280px;
+        height: 136px; } }
+  .ourTariffs__h3 {
+    font-family: "Lato Regular", sans-serif;
+    font-size: 30.42px;
+    font-weight: 900;
+    color: #000;
+    text-transform: uppercase; }
+  .ourTariffs__text {
+    width: 345px;
+    font-family: "Lato Regular", sans-serif;
+    font-size: 18px;
+    line-height: 20px;
+    color: #101010; }
+    @media (max-width: 1229.98px) {
+      .ourTariffs__text {
+        width: 100%; } }
+    .ourTariffs__text_modifier {
+      margin-top: 26px; }
+  .ourTariffs__price {
+    font-family: "Lato Regular", sans-serif;
+    font-size: 44px;
+    font-weight: 900;
+    color: #ffc61a;
+    text-transform: uppercase;
+    transition-duration: .5s; }
+    .ourTariffs__price_modifier {
+      margin-top: 35px; }
+  .ourTariffs__readMore {
+    display: inline-block;
+    width: 166px;
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 29.5px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #000;
+    background: #ffc61a;
+    transition-duration: .5s; }
+    .ourTariffs__readMore_modifier {
+      padding: 14px 0 7px;
+      border-radius: 10px; }
+    .ourTariffs__readMore_modifier {
+      margin: 35px auto 0; }
+  .ourTariffs__starWrap {
+    width: 0;
+    height: 0;
+    opacity: 0; }
+    .ourTariffs__starWrap_modifier {
+      border-bottom: 74px solid #1b1b1b;
+      border-left: 74px solid transparent;
+      position: absolute;
+      right: 0;
+      bottom: 0; }
+  .ourTariffs__star {
+    display: block;
+    opacity: 0; }
+    .ourTariffs__star_modifier {
+      position: absolute;
+      right: 7px;
+      bottom: 13px; }
+
+.advantages {
+  max-width: 1600px;
+  height: 754px;
+  background: url(../../img/whyChooseUsBg.jpg) 81% 100% no-repeat;
+  background-size: cover; }
+  .advantages_modifier {
+    margin: 0 auto;
+    padding: 72px 0 0 64px;
+    box-sizing: border-box; }
+    @media (max-width: 1229.98px) {
+      .advantages_modifier {
+        padding: 72px 32px 0; } }
+    @media (max-width: 575.98px) {
+      .advantages_modifier {
+        padding: 72px 20px 80px; } }
+  @media (max-width: 575.98px) {
+    .advantages {
+      height: auto; } }
+  .advantages__h2 {
+    display: block;
+    width: 358px;
+    color: #fff;
+    font-family: "Lato Regular", sans-serif;
+    font-size: 44px;
+    font-weight: 900;
+    text-transform: uppercase;
+    text-align: center; }
+    .advantages__h2_modifier {
+      margin: 0 auto; }
+    .advantages__h2_modifier {
+      padding-right: 67px; }
+      @media (max-width: 575.98px) {
+        .advantages__h2_modifier {
+          padding-right: 0; } }
+    @media (max-width: 575.98px) {
+      .advantages__h2 {
+        width: 100%; } }
+  .advantages__spanH2 {
+    font-family: "Lato Regular", sans-serif;
+    font-size: 35px;
+    font-weight: 900;
+    color: #ffc61a;
+    text-transform: uppercase; }
+  .advantages__grid {
+    display: grid;
+    grid-template-columns: repeat(2, 485px); }
+    @media (min-width: 992px) and (max-width: 1229.98px) {
+      .advantages__grid {
+        grid-template-columns: repeat(2, 1fr); } }
+    @media (max-width: 991.98px) {
+      .advantages__grid {
+        grid-template-columns: 1fr; } }
+    .advantages__grid_modifier {
+      grid-column-gap: 191px;
+      grid-row-gap: 78px; }
+      @media (max-width: 1229.98px) {
+        .advantages__grid_modifier {
+          grid-column-gap: 50px;
+          grid-row-gap: 20px; } }
+  .advantages__block_modifier:nth-child(1), .advantages__block_modifier:nth-child(2) {
+    margin-top: 95px; }
+    @media (max-width: 991.98px) {
+      .advantages__block_modifier:nth-child(1), .advantages__block_modifier:nth-child(2) {
+        margin-top: 0; } }
+  @media (max-width: 991.98px) {
+    .advantages__block_modifier:nth-child(1) {
+      margin-top: 20px; } }
+  @media (max-width: 575.98px) {
+    .advantages__block {
+      text-align: center; } }
+  .advantages__imgWrap {
+    width: 81px;
+    height: 81px;
+    background: #ffc61a;
+    position: relative; }
+    .advantages__imgWrap_modifier {
+      border-radius: 50%;
+      float: left;
+      margin-right: 37px; }
+      @media (max-width: 575.98px) {
+        .advantages__imgWrap_modifier {
+          float: none;
+          margin: 0 auto 20px; } }
+  .advantages__img {
+    display: block; }
+    .advantages__img_modifier {
+      position: absolute;
+      top: 28px;
+      left: 26px; }
+  .advantages__h3 {
+    font-family: "Lato Regular", sans-serif;
+    font-size: 25px;
+    font-weight: 900;
+    color: #ffc61a;
+    text-transform: uppercase; }
+  .advantages__text {
+    font-family: "Lato Regular", sans-serif;
+    font-size: 18px;
+    color: #fff;
+    line-height: 20px; }
+    .advantages__text_modifier {
+      margin-top: 21px;
+      overflow: hidden; }
+  .advantages__readMoreWrap {
+    text-align: center; }
+    .advantages__readMoreWrap_modifier {
+      margin-top: 84px;
+      padding-right: 61px; }
+      @media (max-width: 575.98px) {
+        .advantages__readMoreWrap_modifier {
+          padding-right: 0; } }
+  .advantages__readMore {
+    display: inline-block;
+    width: 166px;
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 29.5px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #010101;
+    background: #ffc61a;
+    transition-duration: .5s; }
+    .advantages__readMore_modifier {
+      padding: 14px 0 7px;
+      border-radius: 10px; }
+    .advantages__readMore:hover {
+      color: #fff; }
+
+.download {
+  background: #fff; }
+  .download__container {
+    position: relative; }
+    .download__container_modifier {
+      padding: 60px 0 158px; }
+      @media (max-width: 991.98px) {
+        .download__container_modifier {
+          padding: 60px 20px 0; } }
+  .download__h2 {
+    width: 383px;
+    color: #000;
+    font-family: "Lato Regular", sans-serif;
+    font-size: 44px;
+    font-weight: 900;
+    text-transform: uppercase;
+    text-align: center; }
+    .download__h2_modifier {
+      margin: 0 auto; }
+    @media (max-width: 575.98px) {
+      .download__h2 {
+        width: 100%; } }
+  .download__spanH2 {
+    font-family: "Lato Regular", sans-serif;
+    font-size: 35px;
+    font-weight: 900;
+    color: #ffc61a;
+    text-transform: uppercase; }
+  .download__placeAppImg_modifier {
+    position: absolute;
+    right: 65px;
+    bottom: 0; }
+    @media (max-width: 991.98px) {
+      .download__placeAppImg_modifier {
+        position: static;
+        display: block;
+        margin: 20px auto 0;
+        padding-left: 125px; } }
+    @media (max-width: 575.98px) {
+      .download__placeAppImg_modifier {
+        padding-left: 0;
+        width: 100%; } }
+  .download__block {
+    width: 480px; }
+    .download__block_modifier {
+      margin-top: 74px;
+      padding-left: 132px; }
+      @media (min-width: 992px) and (max-width: 1229.98px) {
+        .download__block_modifier {
+          padding-left: 65px; } }
+      @media (max-width: 991.98px) {
+        .download__block_modifier {
+          margin: 50px auto 0;
+          padding: 0; } }
+    @media (max-width: 991.98px) {
+      .download__block {
+        text-align: center; } }
+    @media (max-width: 575.98px) {
+      .download__block {
+        width: 100%; } }
+  .download__h3 {
+    width: 417px;
+    font-family: "Lato Regular", sans-serif;
+    font-size: 25.5px;
+    font-weight: 900;
+    color: #000; }
+    @media (max-width: 991.98px) {
+      .download__h3 {
+        width: 100%; } }
+  .download__text {
+    width: 367px;
+    font-family: "Lato Regular", sans-serif;
+    font-size: 18px;
+    color: #101010; }
+    @media (max-width: 991.98px) {
+      .download__text {
+        width: 100%; } }
+    .download__text_modifier {
+      margin-top: 34px; }
+  .download__appWrap {
+    display: inline-block;
+    width: 204px;
+    height: 59px;
+    background: #000;
+    text-align: center;
+    transition-duration: .2s; }
+    @media (max-width: 575.98px) {
+      .download__appWrap {
+        display: block; } }
+    .download__appWrap_modifier {
+      border-radius: 32.5px;
+      margin-top: 66px;
+      padding-top: 4px;
+      border: 3px solid #000;
+      margin-right: 20px; }
+      @media (max-width: 575.98px) {
+        .download__appWrap_modifier {
+          margin: 30px auto 0; } }
+      .download__appWrap_modifier:hover {
+        cursor: pointer;
+        border: 3px solid #ffc61a; }
+  .download__downloadApp {
+    text-decoration: none; }
+
+.reviews {
+  max-width: 1600px;
+  height: 611px;
+  background: url(../../img/testimonialsBg.jpg) top left no-repeat;
+  background-size: cover; }
+  .reviews_modifier {
+    margin: 0 auto; }
+  @media (max-width: 991.98px) {
+    .reviews {
+      height: auto; } }
+  .reviews__container_modifier {
+    padding: 101px 0 85px 28px; }
+    @media (max-width: 1229.98px) {
+      .reviews__container_modifier {
+        padding: 101px 28px 85px; } }
+    @media (max-width: 575.98px) {
+      .reviews__container_modifier {
+        padding: 72px 20px 85px; } }
+  .reviews__h2 {
+    font-family: "Lato Regular", sans-serif;
+    font-size: 44px;
+    font-weight: 900;
+    text-transform: uppercase;
+    text-align: center;
+    color: #fff; }
+    .reviews__h2_modifier {
+      margin: 0 auto; }
+    @media (max-width: 575.98px) {
+      .reviews__h2 {
+        font-size: 34px !important; } }
+  .reviews__spanH2 {
+    font-family: "Lato Regular", sans-serif;
+    font-size: 35px;
+    font-weight: 900;
+    color: #ffc61a;
+    text-transform: uppercase; }
+  .reviews__grid {
+    display: grid;
+    grid-template-columns: repeat(2, 581px); }
+    @media (min-width: 992px) and (max-width: 1229.98px) {
+      .reviews__grid {
+        grid-template-columns: repeat(2, 1fr); } }
+    @media (max-width: 991.98px) {
+      .reviews__grid {
+        grid-template-columns: 1fr;
+        grid-row-gap: 32px; } }
+    .reviews__grid_modifier {
+      grid-column-gap: 32px;
+      margin-top: 105px; }
+      @media (max-width: 575.98px) {
+        .reviews__grid_modifier {
+          margin-top: 50px; } }
+  .reviews__block {
+    background: #040707;
+    position: relative; }
+    .reviews__block_modifier {
+      border-radius: 50px;
+      padding: 42px 69px 33px 47px; }
+      @media (max-width: 575.98px) {
+        .reviews__block_modifier {
+          padding: 72px 47px 85px; } }
+      .reviews__block_modifier:nth-child(odd):after {
+        content: '';
+        display: block;
+        width: 0;
+        height: 0;
+        border-top: 27px solid #040707;
+        border-right: 27px solid transparent;
+        position: absolute;
+        bottom: -26px;
+        left: 76.8%; }
+        @media (max-width: 575.98px) {
+          .reviews__block_modifier:nth-child(odd):after {
+            left: 73%; } }
+      .reviews__block_modifier:nth-child(even):after {
+        content: '';
+        display: block;
+        width: 0;
+        height: 0;
+        border-top: 27px solid #040707;
+        border-right: 27px solid transparent;
+        position: absolute;
+        bottom: -26px;
+        left: 18.5%;
+        transform: rotate(90deg); }
+  .reviews__text {
+    font-family: "Lato Regular", sans-serif;
+    font-size: 18px;
+    color: #fff;
+    line-height: 20px; }
+  .reviews__avtor_modifier {
+    margin-top: 24px; }
+  .reviews__avtorFoto_modifier {
+    float: left;
+    margin-right: 22px;
+    border-radius: 50%; }
+  .reviews__avtorName {
+    font-family: "Lato Regular", sans-serif;
+    font-size: 25px;
+    font-weight: 900;
+    color: #ffc61a;
+    text-transform: uppercase; }
+    .reviews__avtorName_modifier {
+      padding-top: 9px; }
+  .reviews__avtorJob {
+    display: inline-block;
+    width: 132px;
+    font-family: "Lato Regular", sans-serif;
+    font-size: 18px;
+    font-weight: 900;
+    color: #fff;
+    text-transform: uppercase; }
+    .reviews__avtorJob_modifier {
+      margin-top: 5px;
+      padding-left: 6px; }
+
+.contactUs {
+  background: #ffc61a; }
+  .contactUs__container_modifier {
+    padding: 67px 0 82px; }
+  .contactUs__text {
+    font-family: "Lato Regular", sans-serif;
+    font-size: 35px;
+    font-weight: 900;
+    text-align: center;
+    color: #000;
+    text-transform: uppercase; }
+  .contactUs__tel {
+    font-family: "Lato Regular", sans-serif;
+    font-size: 76.5px;
+    font-weight: 900;
+    text-align: center;
+    color: #000; }
+    .contactUs__tel_modifier {
+      margin-top: 23px; }
+
+.footer {
+  max-width: 1600px;
+  height: 492px;
+  background: url(../../img/footerBg.jpg) top left no-repeat;
+  background-size: cover; }
+  .footer_modifier {
+    margin: 0 auto;
+    padding-top: 74px;
+    box-sizing: border-box; }
+    @media (max-width: 575.98px) {
+      .footer_modifier {
+        padding: 74px 20px 0; } }
+  @media (max-width: 575.98px) {
+    .footer {
+      height: auto; } }
+  .footer__grid {
+    display: grid;
+    grid-template-columns: repeat(3, 354px); }
+    .footer__grid_modifier {
+      grid-column-gap: 75px; }
+      @media (min-width: 992px) and (max-width: 1229.98px) {
+        .footer__grid_modifier {
+          grid-column-gap: 20px; } }
+      @media (max-width: 767.98px) {
+        .footer__grid_modifier {
+          grid-row-gap: 20px; } }
+    @media (min-width: 992px) and (max-width: 1229.98px) {
+      .footer__grid {
+        grid-template-columns: repeat(3, 1fr); } }
+    @media (min-width: 768px) and (max-width: 991.98px) {
+      .footer__grid {
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(2, 1fr); } }
+    @media (max-width: 767.98px) {
+      .footer__grid {
+        grid-template-columns: 1fr; } }
+  .footer__block_modifier {
+    padding-left: 16px; }
+    @media (max-width: 575.98px) {
+      .footer__block_modifier {
+        padding-left: 0; } }
+  @media (min-width: 768px) and (max-width: 991.98px) {
+    .footer__block:last-child {
+      grid-column: 1/3;
+      text-align: center; } }
+  @media (max-width: 575.98px) {
+    .footer__block {
+      width: 100%; } }
+  .footer__h3 {
+    font-family: "Lato Regular", sans-serif;
+    font-size: 25px;
+    font-weight: 900;
+    color: #fff;
+    text-transform: uppercase; }
+    .footer__h3_modifier {
+      padding-bottom: 44px;
+      border-bottom: 8px solid #ffc61a; }
+  .footer__aboutCabHubText, .footer__downloadText, .footer__contactsText, .footer__psdfreebiesCom {
+    font-family: "Lato Regular", sans-serif;
+    font-size: 18px;
+    color: #fff; }
+  .footer__aboutCabHubText, .footer__downloadText {
+    line-height: 22px; }
+    .footer__aboutCabHubText_modifier, .footer__downloadText_modifier {
+      margin-top: 43px; }
+  .footer__aboutCabHubText {
+    width: 309px; }
+    .footer__aboutCabHubText_modifier {
+      margin-bottom: 35px; }
+    @media (max-width: 575.98px) {
+      .footer__aboutCabHubText {
+        width: 100%; } }
+  .footer__networksIcon {
+    background: url(../../img/networks-icon.png) no-repeat;
+    display: inline-block;
+    height: 21px;
+    text-decoration: none; }
+    .footer__networksIcon_modifier {
+      margin-right: 14px;
+      border: 1px solid #000; }
+  .footer__iconFaceBook {
+    width: 10px;
+    background-position: 0 0; }
+  .footer__iconGooglePlus {
+    width: 26px;
+    background-position: -31px 0; }
+  .footer__iconTwitter {
+    width: 18px;
+    background-position: -77px 0; }
+  .footer__iconInstagram {
+    width: 18px;
+    background-position: -115px 0; }
+  .footer__downloadText_modifier {
+    margin-bottom: 12px; }
+  .footer__downloadWrap {
+    width: 184px; }
+  .footer__downloadIcon {
+    display: inline-block;
+    background: url(../../img/download-icon.png) no-repeat;
+    width: 24px;
+    height: 28px; }
+  .footer__androidUsers {
+    background-position: 0 0; }
+  .footer__IOSUsers {
+    background-position: 0 -46px; }
+    .footer__IOSUsers_m0difier {
+      margin-top: 18px; }
+  .footer__downloadIconText {
+    display: inline-block;
+    width: 125px;
+    font-family: "Lato Regular", sans-serif;
+    font-size: 20px;
+    color: #ffc61a;
+    line-height: 21px; }
+    .footer__downloadIconText_modifier {
+      margin: 32px 31px 0 0; }
+  .footer__contactsIcon_modifier {
+    float: left;
+    margin-right: 36px; }
+  .footer__contactsWrap_modifier {
+    margin-top: 46px; }
+  .footer__contactsText {
+    width: 286px;
+    line-height: 21px; }
+    .footer__contactsText_modifier {
+      padding-bottom: 23px; }
+      @media (max-width: 575.98px) {
+        .footer__contactsText_modifier {
+          padding-bottom: 21px; } }
+    @media (max-width: 991.98px) {
+      .footer__contactsText {
+        width: 100%; } }
+  .footer__psdfreebiesCom {
+    text-decoration: none;
+    transition-duration: .5s; }
+    .footer__psdfreebiesCom:hover {
+      color: #ffc61a; }
+  .footer__copyright {
+    font-family: "Lato Regular", sans-serif;
+    font-size: 14px;
+    letter-spacing: 0.7px;
+    color: #fff;
+    background: rgba(0, 0, 0, 0.5);
+    text-align: center; }
+    .footer__copyright_modifier {
+      margin-top: 24px;
+      padding: 51px 0 16px; }
+
+body {
+  background: #000; }
+
+.trustedCabServies__container,
+.ourTariffs__container,
+.advantages__container,
+.download__container,
+.reviews__container,
+.contactUs__container,
+.footer__container {
+  max-width: 1200px; }
+  .trustedCabServies__container_modifier,
+  .ourTariffs__container_modifier,
+  .advantages__container_modifier,
+  .download__container_modifier,
+  .reviews__container_modifier,
+  .contactUs__container_modifier,
+  .footer__container_modifier {
+    margin: 0 auto; }

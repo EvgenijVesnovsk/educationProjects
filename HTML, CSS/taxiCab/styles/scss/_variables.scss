@@ -1,0 +1,58 @@
+@import "_media.scss";
+
+@font-face {
+    font-family: 'Lato Regular', sans-serif;
+    src: url(../../fonts/Lato-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'Bebas Neue', sans-serif;
+    src: url(../../fonts/Bebas-Neue.ttf);
+}
+
+@font-face {
+    font-family: 'Lato Semibold', sans-serif;
+    src: url(../../fonts/Lato-Semibold.ttf);
+}
+
+$majorColor: #ffc61a;
+$fontColorDark: #101010;
+$fontColorLight: #fff;
+$mainFont: 'Lato Regular', sans-serif;
+$buttonFont: 'Bebas Neue', sans-serif;
+
+@mixin buttonStyle {
+    display: inline-block;
+    width: 166px;
+    font-family: $buttonFont;
+    font-size: 29.5px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+
+    &_modifier {
+        padding: 14px 0 7px;
+        border-radius: 10px;
+    }
+}
+
+@mixin h2Style {
+    font-family: $mainFont;
+    font-size: 44px;
+    font-weight: 900;
+    text-transform: uppercase;
+    text-align: center;
+
+    &_modifier {
+        margin: 0 auto;
+    }
+}
+
+@mixin spanH2Style {
+    font-family: $mainFont;
+    font-size: 35px;
+    font-weight: 900;
+    color: $majorColor;
+    text-transform: uppercase;
+}

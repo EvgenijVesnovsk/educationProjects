@@ -1,0 +1,25 @@
+﻿table {
+border-spacing: 0;
+	border-collapse: collapse;
+}
+
+table tr td {
+	width: 55px;
+	height: 55px;
+	font-size: 30px;
+	text-align: center;
+}
+
+table tr td.black {
+	border: 1px solid #000;
+	background-color: #777;
+}
+
+table tr td.white {
+	border: 1px solid #000;
+	background-color: #fff;
+}
+
+.choiceFigure {
+	background-color: coral!important;
+}

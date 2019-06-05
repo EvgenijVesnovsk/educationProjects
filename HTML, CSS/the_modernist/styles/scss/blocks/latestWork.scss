@@ -1,0 +1,77 @@
+﻿//start latest work
+
+.latestWork {
+    background: #660000;
+
+    &_modifier {
+        padding-bottom: 30px;
+        position: relative;
+        
+        @include media-breakpoint-down(md) {
+            padding-bottom: 0;
+        }
+    }
+
+    &__hr {
+        &_modifier {
+            border: 1px solid #303030;
+            background: #303030;
+            margin: 0;
+            margin-bottom: 52px;
+        }
+    }
+
+    &__h2 {
+        font-family: $mainFont;
+        font-size: 32px;
+        line-height: 1.19;
+        color: #fff;
+        background: #303030;
+        width: 257px;
+
+        &_modifier {
+            padding: 12px;
+            border-radius: 5px;
+            position: absolute;
+            top: -28px;
+            left: #{calc(50% - 128px)};
+            margin-bottom: 0;
+        }
+    }
+
+    &__block {
+        &_modifier {
+            border: 5px solid #fff;
+            position: relative;
+            transition-duration: .5s;
+            margin-bottom: 30px;
+            
+            &:hover {
+                border-color: $hoverAndButton;
+            }
+        }
+    }
+
+    &__img {
+        width: 100%;
+    }
+
+    &__p {
+        font-family: $mainFont;
+        line-height: 1.21;
+        color: #fff;
+        background: #000;
+        width: 100%;
+        text-align: center;
+
+        &_modifier {
+            position: absolute;
+            left: 0;
+            bottom: 0;
+            padding: 5px 0;
+            margin: 0;
+        }
+    }
+}
+
+//stop latest work

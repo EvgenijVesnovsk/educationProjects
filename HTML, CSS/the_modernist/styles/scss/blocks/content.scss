@@ -1,0 +1,65 @@
+﻿//start content
+
+.content {
+    background: #660000;
+
+    &_modifier {
+        padding: 60px 0 48px;
+    }
+
+    &__block {
+        background: #fff;
+        text-align: center;
+        transition-duration: .5s;
+
+        &_modifier {
+            padding: 21px 33px;
+            
+            @include media-breakpoint-only(md) {
+                padding: 21px 0;
+            }
+            
+            @include media-breakpoint-down(md) {
+                margin-bottom: 15px;
+            }
+        }
+        
+        &:hover {
+            cursor: pointer;
+            background: $hoverAndButton;
+            
+            .content__h2,
+            .content__p {
+                color: #fff;
+            }
+        }
+    }
+
+    &__h2 {
+        font-family: $mainFont;
+        font-size: 32px;
+        color: #333;
+
+        &_modifier {
+            margin-top: 17px;
+        }
+    }
+
+    &__p {
+        font-family: $mainFont;
+        font-size: 12px;
+        line-height: 1.42;
+        color: $fontColor;
+
+        &_modifier {
+            margin-top: 24px;
+        }
+    }
+
+    &__h2,
+    &__p {
+        margin-bottom: 0;
+    }
+}
+
+//stop content

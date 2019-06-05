@@ -1,0 +1,139 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<title>chess</title>
+	<link rel="stylesheet" type="text/css" href="styles/style.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+</head>
+
+<body>
+	<center>
+		<table>
+			<tr>
+				<td row="0" col="0"></td>
+				<td row="0" col="1"></td>
+				<td row="0" col="2"></td>
+				<td row="0" col="3"></td>
+				<td row="0" col="4"></td>
+				<td row="0" col="5"></td>
+				<td row="0" col="6"></td>
+				<td row="0" col="7"></td>
+				<td row="0" col="8"></td>
+				<td row="0" col="9"></td>
+			</tr>
+			<tr>
+				<td row="1" col="0"></td>
+				<td row="1" col="1" class="white"></td>
+				<td row="1" col="2" class="black"></td>
+				<td row="1" col="3" class="white"></td>
+				<td row="1" col="4" class="black"></td>
+				<td row="1" col="5" class="white"></td>
+				<td row="1" col="6" class="black"></td>
+				<td row="1" col="7" class="white"></td>
+				<td row="1" col="8" class="black"></td>
+				<td row="1" col="9"></td>
+			</tr>
+			<tr>
+				<td row="2" col="0"></td>
+				<td row="2" col="1" class="black"></td>
+				<td row="2" col="2" class="white"></td>
+				<td row="2" col="3" class="black"></td>
+				<td row="2" col="4" class="white"></td>
+				<td row="2" col="5" class="black"></td>
+				<td row="2" col="6" class="white"></td>
+				<td row="2" col="7" class="black"></td>
+				<td row="2" col="8" class="white"></td>
+				<td row="2" col="9"></td>
+			</tr>
+			<tr>
+				<td row="3" col="0"></td>
+				<td row="3" col="1" class="white"></td>
+				<td row="3" col="2" class="black"></td>
+				<td row="3" col="3" class="white"></td>
+				<td row="3" col="4" class="black"></td>
+				<td row="3" col="5" class="white"></td>
+				<td row="3" col="6" class="black"></td>
+				<td row="3" col="7" class="white"></td>
+				<td row="3" col="8" class="black"></td>
+				<td row="3" col="9"></td>
+			</tr>
+			<tr>
+				<td row="4" col="0"></td>
+				<td row="4" col="1" class="black"></td>
+				<td row="4" col="2" class="white"></td>
+				<td row="4" col="3" class="black"></td>
+				<td row="4" col="4" class="white"></td>
+				<td row="4" col="5" class="black"></td>
+				<td row="4" col="6" class="white"></td>
+				<td row="4" col="7" class="black"></td>
+				<td row="4" col="8" class="white"></td>
+				<td row="4" col="9"></td>
+			</tr>
+			<tr>
+				<td row="5" col="0"></td>
+				<td row="5" col="1" class="white"></td>
+				<td row="5" col="2" class="black"></td>
+				<td row="5" col="3" class="white"></td>
+				<td row="5" col="4" class="black"></td>
+				<td row="5" col="5" class="white"></td>
+				<td row="5" col="6" class="black"></td>
+				<td row="5" col="7" class="white"></td>
+				<td row="5" col="8" class="black"></td>
+				<td row="5" col="9"></td>
+			</tr>
+			<tr>
+				<td row="6" col="0"></td>
+				<td row="6" col="1" class="black"></td>
+				<td row="6" col="2" class="white"></td>
+				<td row="6" col="3" class="black"></td>
+				<td row="6" col="4" class="white"></td>
+				<td row="6" col="5" class="black"></td>
+				<td row="6" col="6" class="white"></td>
+				<td row="6" col="7" class="black"></td>
+				<td row="6" col="8" class="white"></td>
+				<td row="0" col="9"></td>
+			</tr>
+			<tr>
+				<td row="7" col="0"></td>
+				<td row="7" col="1" class="white"></td>
+				<td row="7" col="2" class="black"></td>
+				<td row="7" col="3" class="white"></td>
+				<td row="7" col="4" class="black"></td>
+				<td row="7" col="5" class="white"></td>
+				<td row="7" col="6" class="black"></td>
+				<td row="7" col="7" class="white"></td>
+				<td row="7" col="8" class="black"></td>
+				<td row="7" col="9"></td>
+			</tr>
+			<tr>
+				<td row="8" col="0"></td>
+				<td row="8" col="1" class="black"></td>
+				<td row="8" col="2" class="white"></td>
+				<td row="8" col="3" class="black"></td>
+				<td row="8" col="4" class="white"></td>
+				<td row="8" col="5" class="black"></td>
+				<td row="8" col="6" class="white"></td>
+				<td row="8" col="7" class="black"></td>
+				<td row="8" col="8" class="white"></td>
+				<td row="8" col="9"></td>
+			</tr>
+			<tr>
+				<td row="9" col="0"></td>
+				<td row="9" col="1"></td>
+				<td row="9" col="2"></td>
+				<td row="9" col="3"></td>
+				<td row="9" col="4"></td>
+				<td row="9" col="5"></td>
+				<td row="9" col="6"></td>
+				<td row="9" col="7"></td>
+				<td row="9" col="8"></td>
+				<td row="9" col="9"></td>
+			</tr>
+		</table>
+	</center>
+	<script type="text/javascript" src="js/game.js"></script>
+</body>
+
+</html>

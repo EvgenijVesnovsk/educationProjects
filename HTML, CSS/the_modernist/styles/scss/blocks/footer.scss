@@ -1,0 +1,43 @@
+﻿//start footer
+
+.footer {
+    background: #2b2b2b;
+
+    &_modifier {
+        border-top: 1px solid #3a3a3a;
+        padding: 23px 0;
+    }
+
+    &__left,
+    &__right {
+        font-family: $mainFont;
+        font-size: 13px;
+        color: $fontColor;
+        
+        &_modifier {
+            margin: 0;
+        }
+    }
+    
+    &__left {
+        &_modifier {
+            float: left;
+            
+            @include media-breakpoint-down(xs) {
+                float: none;
+            }
+        }
+    }
+    
+        &__right {
+        &_modifier {
+            float: right;
+            
+            @include media-breakpoint-down(xs) {
+                float: none;
+            }
+        }
+    }
+}
+
+//stop footer

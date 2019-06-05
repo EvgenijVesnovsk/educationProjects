@@ -1,0 +1,93 @@
+﻿$xsFrom: 0;
+$xsTo: 575.98px;
+$smFrom: 576px;
+$smTo: 767.98px;
+$mdFrom: 768px;
+$mdTo: 991.98px;
+$lgFrom: 992px;
+$lgTo: 1229.98px;
+$xlFrom: 1230px;
+
+@mixin respond-up($_device) {
+    @if $_device == sm {
+        @media (min-width: $smFrom) {
+            @content;
+        }
+    }
+    @if $_device == md {
+        @media (min-width: $mdFrom) {
+            @content;
+        }
+    }
+    @if $_device == lg {
+        @media (min-width: $lgFrom) {
+            @content;
+        }
+    }
+    @if $_device == xl {
+        @media (min-width: $xlFrom) {
+            @content;
+        }
+    }
+}
+
+@mixin respond-down($_device) {
+    @if $_device == xs {
+        @media (max-width: $xsTo) {
+            @content;
+        }
+    }
+    @if $_device == sm {
+        @media (max-width: $smTo) {
+            @content;
+        }
+    }
+    @if $_device == md {
+        @media (max-width: $mdTo) {
+            @content;
+        }
+    }
+    @if $_device == lg {
+        @media (max-width: $lgTo) {
+            @content;
+        }
+    }
+}
+
+@mixin respond-only($_device) {
+    @if $_device == xs {
+        @media (max-width: $xsTo) {
+            @content;
+        }
+    }
+    @if $_device == sm {
+        @media (min-width: $smFrom) and (max-width: $smTo) {
+            @content;
+        }
+    }
+    @if $_device == md {
+        @media (min-width: $mdFrom) and (max-width: $mdTo) {
+            @content;
+        }
+    }
+    @if $_device == lg {
+        @media (min-width: $lgFrom) and (max-width: $lgTo) {
+            @content;
+        }
+    }
+    @if $_device == xl {
+        @media (min-width: $xlFrom) {
+            @content;
+        }
+    }
+}
+
+@mixin respond-beetween($_minWidth, $_maxWidth) {
+  @media (min-width: $_minWidth) and (max-width: $_maxWidth) {
+    @content;
+  }
+}
+
+//    @include respond-only(xs) {
+//        width: 100%;
+//    }
